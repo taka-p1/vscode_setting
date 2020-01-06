@@ -9,6 +9,9 @@
         "args": { "text": "\n" },
         "when": "editorTextFocus && !editorReadonly"
     },
-    { "key": "ctrl+m",                 "command": "acceptSelectedSuggestion",
-                                     "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus" },
+    { 
+        "key": "ctrl+m",
+        "command": "acceptSelectedSuggestion",
+        "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+    },
 ]
