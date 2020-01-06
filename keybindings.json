@@ -1,0 +1,14 @@
+[
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "type",
+        "args": { "text": "\n" },
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    { "key": "ctrl+m",                 "command": "acceptSelectedSuggestion",
+                                     "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus" },
+]
